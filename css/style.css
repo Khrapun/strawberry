@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Bradley Hand, cursive;
+    color: #444444;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#p_prldr{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom:0;
+    background: #ffc7fa;
+    z-index: 30;
+}
+     
+.contpre small{font-size:25px;}
+     
+.contpre {
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 50%;top: 48%;
+    margin-left:-125px;
+    margin-top:-75px;
+    color:rgb(138, 138, 138);
+    font-size:40px;
+    letter-spacing:-2px;
+    text-align:center;
+    line-height:35px;
+}
+
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+.logo {
+    width: 74px;
+    height: 58px;
+}
+
+.title {
+    font-size: 2.5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.header {
+    background-color: #ffebf0;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    box-shadow: 0 6px 6px -2px #808080;
+    width: 100%;
+}
+
+.header__logo span {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.inst-link img{
+    width:2rem;
+    height: 2rem;
+}
+
+.navbar-width {
+    width: 74rem;
+    height: 6rem;
+    padding-top: 1rem;
+}
+
+.navbar__nav__item {
+    padding: 0px 4px;
+}
+
+.navbar__nav__item__link:hover, .phone-number:hover {
+    color: #4e7562;
+    transition: 0.3s;
+    
+}
+
+.navbar__nav__item__link {
+    font-size: 1.1rem;
+}
+
+.phone-number {
+    font-size: 1.3rem;
+}
+
+.section-description__container__item {
+    max-width: 18rem;
+}
+
+
+.section-description__container__item ul li {
+    padding: 1rem 0rem;
+    list-style-type: circle;
+}
+
+.section-description__description {
+    width: 40rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.car-icon {
+    width:70px;
+    height: 70px;
+    margin-left: 1rem;
+}
+
+.call-icon {
+    width: 35px;
+    height: 35px;
+    margin-left: 1rem;
+}
+
+.performance-section {
+    position: relative;
+}
+
+.performance-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.527);  
+    z-index: 1;
+  }
+
+.perofrmance-img {
+    height: 36rem;
+}
+
+.carousel-caption_performance {
+    margin-bottom: 13rem;
+}
+
+.carousel-caption_performance h3 {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.carousel-caption_performance p {
+    font-size: 1.5m;
+    color: #ffffff;
+}
+
+.performance-section_container h3 {
+    text-align: center;
+    color: #ffffff;
+    width: 50rem;
+}
+
+.article-stocks {
+    width: 15rem;
+}
+
+.article-stocks__stock-name {
+    padding: 1rem 0rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.before-price {
+    text-decoration: line-through;
+    color: #644242
+}
+
+.after-price {
+    color: #3d743d
+}
+
+.article-stocks__photo {
+ width: 15rem;
+ height: 10rem;
+ border-radius: 17px;
+ cursor:pointer;
+}
+
+.inst-btn {
+    width: 30rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.section-description, .stocks-section, .comment-section, .consultation-section {
+    padding: 7rem 0rem 0rem 0rem;
+}
+
+.comment-img {
+    opacity:0.4;
+    background-color:rgba(0, 0, 0, 0);
+    width: 50rem;
+    height: 30rem;
+}
+
+.consultation-container p {
+    width: 37rem;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.emoji__nia {
+    width: 39px;
+    height: 37px;
+}
+
+.carousel-caption_comment h5{
+    font-size: 2rem;
+    color: #272727;
+}
+
+.carousel-caption_comment p{
+    font-size: 1.5rem;
+    color: #272727
+}
+
+.footer {
+    background-color: #1f1f1f;
+}
+
+.container-footer {
+    height: 3rem;
+}
+
+.container-footer p{
+    color: #555555;
+    margin-bottom: 0rem;
+}
+
+.vortex-studio {
+    color: #636363;
+}
+
+.carousel-item_comment {
+    width: 50rem;
+    height: 30rem;
+}
+
+.carousel-comment {
+    width: 50rem;
+}
+
+
+.consultation-section {
+    padding-bottom: 5rem;
+}
+
+.btn-form-delyvery {
+    margin: 1rem 0rem;
+}
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+
+    .section-description, .stocks-section, .comment-section, .consultation-section {
+        padding: 3rem 0rem 0rem 0rem;
+    }
+
+    .title {
+        font-size: 1.5rem!important;
+    }
+
+    .article-stocks__photo {
+        width: 9rem;
+        height: 6rem;
+    }
+
+    .article-stocks__stock-name {
+        font-size: 1rem;
+    }
+
+    .before-price {
+        font-size: 0.9rem;
+    }
+
+    .after-price {
+        font-size: 0.9rem;
+    }
+
+    .section-description__container__item h5{
+        font-size: 1.2rem;
+    }
+
+    .section-description__container {
+        flex-direction: column;
+    }
+
+    .section-description__container__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 29rem;;
+    }
+
+    .section-description__container__item ul li {
+        margin-left: 2rem;
+    }
+
+    .inst-btn {
+        width: 15rem;
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+
+    .comment-section {
+        display: none;
+    }
+
+    .nav_item-comment {
+        display: none;
+    }
+
+    .consultation-container p {
+        width: 20rem;
+        font-size: 0.95em;
+        margin-bottom: 4rem;
+    }
+
+    .perofrmance-img {
+        height: 16rem!important;
+    }
+
+    .carousel-caption_performance {
+        margin-bottom: 0rem;
+    }
+
+    .carousel-caption_performance h3 {
+        font-size: 1.2rem;
+        color: #ffffff;
+    }
+
+    .carousel-caption_performance p {
+        font-size: 1rem;
+        color: #ffffff;
+    }
+
+    .article-stocks {
+        width: 8rem;
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        padding: 0.3rem 0rem 0rem 0rem;
+    }
+
+    .logo {
+        width: 41px!important;
+        height: 34px!important;
+    }
+
+    .header__logo span {
+        font-size: 1rem!important;
+    }
+
+    .navbar-nav {
+            align-items: center;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 767.98px) { 
+
+    .carousel-item_comment {
+        width: 40rem;
+        height: 20rem;
+    }
+    
+    .carousel-comment {
+        width: 40rem;
+    }
+
+    .carousel-caption_comment h5{
+        font-size: 1.5rem;
+        color: #272727;
+    }
+    
+    .carousel-caption_comment p{
+        font-size: 1rem;
+        color: #272727
+    }
+
+    .perofrmance-img {
+        height: 33rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 991.98px) { 
+
+    .carousel-item_comment {
+        width: 40rem;
+        height: 20rem;
+    }
+    
+    .carousel-comment {
+        width: 40rem;
+    }
+
+    .carousel-caption_comment h5{
+        font-size: 1.5rem;
+        color: #272727;
+    }
+    
+    .carousel-caption_comment p{
+        font-size: 1rem;
+        color: #272727
+    }
+
+    .title {
+        font-size: 2.2rem;
+    }
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1199.98px) {
+
+    .header__logo span {
+        margin-left: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    .logo {
+        width: 50px;
+        height: 38px;
+    }
+
+    .navbar__nav__item__link {
+        font-size: 1rem;
+    }
+
+    .phone-number {
+        font-size: 1.1rem;
+    }
+
+
+
+}
