@@ -41,6 +41,7 @@ ul {
     width: 80px;
     height: 80px;
   }
+
   .lds-dual-ring:after {
     content: " ";
     display: block;
@@ -52,6 +53,7 @@ ul {
     border-color: #fff transparent #fff transparent;
     animation: lds-dual-ring 1.2s linear infinite;
   }
+
   @keyframes lds-dual-ring {
     0% {
       transform: rotate(0deg);
@@ -198,6 +200,7 @@ ul {
 }
 
 .before-price {
+    margin-bottom: 0rem;
     text-decoration: line-through;
     color: #644242
 }
@@ -303,7 +306,7 @@ ul {
 
     .article-stocks__photo {
         width: 9rem;
-        height: 6rem;
+        height: 7rem;
     }
 
     .article-stocks__stock-name {
@@ -379,6 +382,7 @@ ul {
     .article-stocks {
         width: 8rem;
         text-align: center;
+        justify-content: space-around;
     }
 
     .navbar-toggler {
@@ -435,6 +439,12 @@ ul {
 /* // Large devices (desktops, 992px and up) */
 @media (max-width: 991.98px) { 
 
+    .article-stocks {
+        margin-bottom: 2rem;
+        text-align: center;
+        justify-content: space-around;
+    }
+
     .carousel-item_comment {
         width: 40rem;
         height: 20rem;
@@ -462,6 +472,12 @@ ul {
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1199.98px) {
+
+    .article-stocks {
+        margin-bottom: 2rem;
+        text-align: center;
+        justify-content: space-around;
+    }
 
     .header__logo span {
         margin-left: 0.5rem;
